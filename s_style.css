@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head {
+    margin: 30px;
+    display: flex;
+}
+
+#head div img{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    box-shadow: 1px 2px 5px 3px rgb(128, 129, 130);
+    z-index: 2;
+    position: relative;
+    
+}
+#head #he1{
+    
+    height: 40px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+#head #he1 .he2{
+    
+    height: 40px;
+    width: 100%;
+    color: rgb(137, 186, 186);
+    position: absolute;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: -20px;
+    
+
+}
+#head #he1 .he3{
+    position: absolute;
+    
+    height: 40px;
+    width: 50px;
+    background: none;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 30px;
+    font: bold;
+    margin-left: -20px;
+    
+}
+#skill #comment{
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(102, 124, 54);
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 10px;
+
+}
+#skill #s_det{
+    position: relative;
+    margin: 50px;
+    height: 620px;
+    width: 650px;
+    margin-top: -20px;
+    
+}
+#skill #s_det #s_tec{
+    font-size: 30px;
+    padding-left: 70px;
+}
+#skill #s_det #s_per{
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    height: 502px;
+    margin-left: 60px;
+    border-right: none;
+    border-top: none;
+}
+#skill #s_det #s_per #s_ins .s_bac{
+    border: 2px solid red;
+    height: 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none; 
+}
+#skill #s_det #s_per #s_ins #s_bac1{
+    border: none;
+}
+
+#skill #s_det #s_per #s_ins .s_bac #hyju {
+     height: 100px;
+     padding-top: 88px;
+     margin-left: -50px;
+     background: none;
+}
+#skill #s_det #graph{
+    display: flex;
+}
+#skill #s_det  #graph1{
+    height: 448px;
+    width: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: -460px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+
+
+#skill #s_det  #graph2{
+    height: 378px;
+    width: 20px;
+    margin-right: 70px;
+    margin-top: -390px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+#skill #s_det  #graph3{
+    height: 298px;
+    width: 20px;
+    margin-right: 70px;
+    margin-top: -310px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+#skill #s_det  #graph4{
+    height: 248px;
+    width: 20px;
+    margin-right: 70px;
+    margin-top: -260px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+
+#skill #s_det  #graph5{
+    height: 268px;
+    width: 20px;
+    margin-right: 70px;
+    margin-top: -280px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+#skill #s_det  #graph6{
+    height: 278px;
+    width: 20px;
+    margin-right: 70px;
+    margin-top: -290px;
+    margin-bottom: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    animation: sh1 2s linear forwards;
+}
+@keyframes sh1 {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0%)
+    }
+    
+}
+
+#skill #s_det .s_sk{
+    height: 50px;
+    width: 80px;
+    margin-right: 10px;
+    background: none;
+}
+#skill #s_det img{
+    padding-left: 18px;
+    height: 40px;
+    background: none;
+}
+
+#skill #s_det #s_sh{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 60px;
+    width: 550px;
+    background: none;
+}
+#skill #s_main2{
+     height: 620px;
+     width: 500px;
+     margin-top: -20px;
+     margin-left: 100px;
+}
+#skill #s_main{
+    display: flex;
+}
+#skill #s_main2 #s_2h1{
+    font-size: 30px;
+    padding-left: 70px;
+    height: 32px;
+}
+#s_body{
+    height: 580px;
+    width: 600px;
+    display: flex;
+    
+}
+#s_body .s_skills{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 70px;
+
+}
+#s_body .s_skills .skillname{
+    font-size: 25px;
+    font: bold;
+    color: rgb(92, 89, 89);
+    margin: 20px 0;
+}
+#s_body .s_skills .skill_bar{
+    height: 14px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+#s_body .s_skills .skill_bar .skill_per{
+    height: 14px;
+    background-color: red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: shr 2s linear forwards;
+}
+.skill_per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: rgb(83, 86, 88);
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-right: 40px;
+    right: 0;
+    color: white;
+}
+@keyframes shr {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
